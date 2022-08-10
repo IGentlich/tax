@@ -76,7 +76,6 @@
 
     var calculateTax = (title, price) => {
         let tax = 0;
-        let defaultTax = 10;
         for(let i = 0; i < types.length; i++) {
             if(title == types[i].title) {
                 for(j = 0; j < types[i].type.length; j++) {
