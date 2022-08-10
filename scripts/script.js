@@ -50,7 +50,6 @@
     }
 
     var reloadBasket = () => {
-        console.log(goods);
         let totalTaxes = 0;
         let total = 0;
 
